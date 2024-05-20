@@ -1,0 +1,211 @@
+/* -----reset padrão----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+/* -----MENU----- */
+
+#menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 8vh;
+}
+
+.logo{
+  color:#333;
+  text-decoration:none;
+}
+
+.opcoes {
+  list-style: none;
+  display: flex;
+}
+
+.opcoes li {
+  letter-spacing: 3px;
+}
+
+.opcoes li a{
+  text-decoration: none;
+  color: #333;
+  padding: 20px;
+  transition: all .6s;
+}
+
+.opcoes li a:hover{
+  color: white;
+  background-color: #333;
+}
+
+/* -----CONTAINER PADRÃO----- */
+
+section{
+  padding: 100px 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  text-align: center;
+}
+
+/* -----APRESENTAÇÃO----- */
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 30px;
+
+  text-transform: uppercase;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.img {
+  text-align: center;
+  margin: auto;
+  
+}
+
+.img img{
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+/* -----SOBRE MIM----- */
+#sobre_mim{
+  background-color: #FFEF96;
+}
+
+h3{
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+
+  text-transform: uppercase;
+}
+
+.text{
+  width: 70%;
+  margin: auto;
+}
+
+.text p{
+  text-align: justify;
+  line-height:40px;
+  font-size: 22px;
+}
+
+/* ----- MINHA FORMAÇÃO ----- */
+#minha_formacao{
+  background-color: #FFE34C;
+}
+
+
+.curso{
+  max-width: 200px;
+}
+
+i{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.curso p{
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* ----- MEU PORTFÓLIO ----- */
+
+#meu_portfolio{
+  background-color: #FFEF96;
+}
+
+.github{
+  text-align: center;
+}
+
+.github a img{
+  width: 180px;
+  margin-bottom: 30px;
+}
+
+.container .exemplos a img{
+  width: 350px;
+  margin-bottom: 25px;
+}
+
+/* ----- CONTATO ----- */
+
+#contato{
+  background-color:#dbdbdb ;
+}
+
+#contato .container .form_img{
+  width: 50%;
+  padding: 0 100px;
+}
+
+#contato .container .form_img img{
+  width: 80%;
+}
+
+.form{
+  width: 50%;
+  padding: 0 100px;
+
+  font-size: 18px;
+}
+
+.form p{
+  margin-top: 20px;
+
+  text-align: left;
+  font-size: 28px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+}
+
+form input, textarea{
+  margin-bottom: 20px;
+  height: 20px;
+
+  border: none;
+  border-radius: 7px;
+}
+
+form [type=submit]{
+  color: white;
+  background-color: #333;
+
+  width: 50%;
+}
